@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'BYekan';
+  src: url("assets/fonts/BYekan.ttf") format('truetype');
+  src: url("assets/fonts/BYekan.ttf") format('embedded-opentype');
+  src: url("assets/fonts/BYekan.ttf") format('woff');
+  src: url("assets/fonts/BYekan.ttf");
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'BYekanBold';
+  src: url("assets/fonts/BYekanBold.ttf") format('truetype');
+  src: url("assets/fonts/BYekanBold.ttf") format('embedded-opentype');
+  src: url("assets/fonts/BYekanBold.ttf") format('woff');
+  src: url("assets/fonts/BYekanBold.ttf");
+  font-weight: 700;
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
